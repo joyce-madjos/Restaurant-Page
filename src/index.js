@@ -1,5 +1,7 @@
 import './style.scss';
+import {createAboutPage as about}  from './about.js';
 
+let content = document.getElementById("content");
 
 console.log("Meow!");
 
@@ -10,4 +12,5 @@ function component() {
     return element;
   }
   
-  document.body.appendChild(component());
+  content.appendChild(component());
+  content.appendChild(about());
