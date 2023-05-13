@@ -1,0 +1,21 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Restaurant Page for cats",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cat",
+    "food",
+    "Restaurant",
+    "Page",
+    "Restaurant",
+    "Page",
+    "for",
+    "Cats"
+  ],
+  "author": "Joyce Madjos",
+  "license": "ISC"
+}
