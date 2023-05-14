@@ -7,10 +7,17 @@ body{
     padding: 0;
 }
 
+$general-font: 'Allerta', sans-serif;
+$headings-font: 'Vollkorn SC', serif;
+$text-color: black;
+$accent-color-green: rgba(194,242,208,1);
+$secondary-color-yellow: rgba(253,245,201,1);
+$primary-color-pink: rgba(255,197,217,1);
+
+
 #content{
     background-color: mix(blue, yellow, 10%); /*50% blue and 70% yellow*/
-    font-family: 'Allerta', sans-serif;
-font-family: 'Vollkorn SC', serif;
+    
 }
 
 #element{
