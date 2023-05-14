@@ -5,6 +5,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: $primary-color-pink;
 }
 
 $general-font: 'Allerta', sans-serif;
@@ -15,12 +16,15 @@ $secondary-color-yellow: rgba(253,245,201,1);
 $primary-color-pink: rgba(255,197,217,1);
 
 
-#content{
-    background-color: mix(blue, yellow, 10%); /*50% blue and 70% yellow*/
-    
-}
+nav{
+    position: sticky;
 
-#element{
-    color: yellow;
-    background-color: black;
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+       background-color: $secondary-color-yellow;
+
+    }
 }
